@@ -1,0 +1,38 @@
+{
+  "schema": "semantic-contribution-proof-ledger-test-vectors-v1",
+  "recordKinds": {
+    "Tip": 0,
+    "Airdrop": 1
+  },
+  "recordSequence": {
+    "first": "1",
+    "increment": "1",
+    "reuseAllowed": false
+  },
+  "selectors": {
+    "tip": "0x493a4dd0",
+    "airdrop": "0xe1a7a13f"
+  },
+  "interfaceIds": {
+    "core": "0xa89decef",
+    "ledgerExtension": "0x1ac292fe",
+    "assetPolicy": "0x716d3dcb",
+    "compositeDiscovery": "0xb25f7e11"
+  },
+  "subjectTypes": {
+    "None": 0,
+    "Address": 1,
+    "Bytes32": 2,
+    "Token": 3,
+    "Demand": 4,
+    "Campaign": 5,
+    "Content": 6,
+    "Charity": 7,
+    "ApplicationDefinedStart": 128
+  },
+  "metadata": {
+    "maxMemoBytes": 256,
+    "noneSubject": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "addressSubject": "0x0000000000000000000000001111111111111111111111111111111111111111"
+  }
+}
